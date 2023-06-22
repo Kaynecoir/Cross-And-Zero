@@ -2,9 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ItemType
+public class Player
 {
-	None = 0,
-	Cross = 1,
-	Circle = 2
+	public Sprite icon;
 }
