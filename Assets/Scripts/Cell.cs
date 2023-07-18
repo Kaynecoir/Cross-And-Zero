@@ -14,7 +14,6 @@ public class Cell : MonoBehaviour, IPointerClickHandler
 	public void OnPointerClick(PointerEventData eventData)
 	{
 		GameManager.Add(this);
-		val.color = new Color(1, 1, 1, 1);
 	}
 
 	private void Start()

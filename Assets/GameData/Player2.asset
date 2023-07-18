@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerIcon: {fileID: 21300000, guid: 1a158630f181d1c4db767e8e0fb89402, type: 3}
   playerType: 2
+  playerColor: {r: 0.21960786, g: 0.9411765, b: 0.9411765, a: 1}

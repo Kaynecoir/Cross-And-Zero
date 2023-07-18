@@ -24,6 +24,7 @@ public class UGameManager : MonoBehaviour
 		if (itemArea[c.x, c.y] != ItemType.None) return;
 		itemArea[c.x, c.y] = currentPlayer.PlayerType;
 		c.val.sprite = currentPlayer.PlayerIcon;
+		c.val.color = currentPlayer.PlayerColor;
 		if (Win(currentPlayer.PlayerType)) WinBox.SetActive(true);
 		else if (Lose()) LoseBox.SetActive(true);
 
